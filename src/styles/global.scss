@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@import "./colors";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  color: $white-100;
+  font-family: "Roboto", sans-serif;
+}
+
+button:first-child {
+  margin-top: 0 !important;
+}
+
+button:last-child {
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+}
+
+body {
+  background-color: $grey-500;
+  height: 100vh;
+  overflow: hidden;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1.424rem;
+  font-weight: 400;
+}
+
+p {
+  text-align: left;
+  margin-left: 0.75rem;
+  margin-bottom: 1rem;
+  font-size: 0.889rem;
+}
+
+nav {
+  background-color: $grey-300;
+  padding: 1rem 1.5rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+  min-height: 0;
+}
+
+main {
+  padding-top: 2rem;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  user-select: none;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  height: 1rem;
+  width: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  margin-left: 1rem;
+}
